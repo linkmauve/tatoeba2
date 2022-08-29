@@ -74,7 +74,7 @@ class MembersHelper extends AppHelper
             $options['alt'] = __('Former member');
         }
         return $this->Html->image(
-            '/img/profiles_36/'.$imageName,
+            '/img/profiles_128/' . $imageName,
             $options
         );
     }
